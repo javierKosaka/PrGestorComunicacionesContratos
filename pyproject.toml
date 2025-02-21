@@ -1,0 +1,17 @@
+[project]
+name = "prgestorcomunicacionescontratos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.1.5",
+    "pillow>=11.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "djlint>=1.36.4",
+    "ipython>=8.32.0",
+    "ruff>=0.9.4",
+]
